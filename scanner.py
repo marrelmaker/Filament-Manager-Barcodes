@@ -78,7 +78,7 @@ def setSelection(id):
                 "id": id
             }   
         },
-        "update": True
+        "updateui": True
     }
     try:
         r = requests.patch(url, json=payload, headers=headers)
@@ -140,7 +140,7 @@ if __name__ == '__main__':
                             "id": 1
                         }
                     },
-                    "update": True
+                    "updateui": True
                 }
 
                 try:
